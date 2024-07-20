@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+    top: 100px;
+}
+
+.box {
+    margin-bottom: 20px;
+}
+
+.cgpa {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+#percentage {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+   position: relative;
+   left:120px;
+}
+
+#btn:hover {
+    background-color: #0056b3;
+}
+
+
+@media (max-width: 600px) {
+    form {
+        width: 90%;
+    }
+}
